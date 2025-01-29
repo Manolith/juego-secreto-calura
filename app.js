@@ -53,7 +53,7 @@ function limpiarCaja(){
 }
 function condicionesIniciales(){
     asignarTextoElemento("h1","Juego del número secreto");
-    asignarTextoElemento("p","Ingrese un número entre 1 y numeroMaximo");
+    asignarTextoElemento("p",`Ingrese un número entre 1 y ${numeroMaximo}`);
     numeroSecreto = generarNumeroSecreto();
     intentos = 1;
 }
